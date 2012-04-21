@@ -74,7 +74,7 @@ def main():
 				
 				if len(task) > 0:
 					
-					if len(current_task) > 0:
+					if current_task:
 						stack.addTask(current_task)
 						
 					current_task = task
